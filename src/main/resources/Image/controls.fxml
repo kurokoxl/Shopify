@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="82.0" prefWidth="168.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane prefHeight="72.0" prefWidth="86.0">
+         <children>
+            <ImageView fitHeight="80.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@remove.png" />
+               </image>
+            </ImageView>
+            <JFXButton opacity="0.0" prefHeight="82.0" prefWidth="80.0" text="Button" />
+         </children>
+      </StackPane>
+      <Separator orientation="VERTICAL" prefHeight="200.0" />
+      <StackPane prefHeight="78.0" prefWidth="55.0">
+         <children>
+            <ImageView fitHeight="78.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@rename.png" />
+               </image>
+            </ImageView>
+            <JFXButton opacity="0.0" prefHeight="81.0" prefWidth="78.0" text="Button" />
+         </children>
+      </StackPane>
+   </children>
+</HBox>
